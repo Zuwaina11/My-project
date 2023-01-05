@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+
+        android:text="Chocolates from a store near you. Simple pleasures and superior chocolate gifts presented in ever-original and varied ways. Scrumptious seasonal surprises to add to your
+         traditional favourites. All of this and more comes of course with our attentive
+         service and affordable prices. Behind a veil of apparent simplicity, there’s much more to procuring such daily pleasures than meets the eye..."
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        app:srcCompat="@drawable/homepage_1" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application for project</string>
+    <string name="inputText1">Enter here</string>
+    <string name="btnaddText">ADD</string>
+    <string name="btnupdateText">Update</string>
+    <string name="btndeleteText">Delete</string>
+</resources>
